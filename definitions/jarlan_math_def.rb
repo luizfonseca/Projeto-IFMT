@@ -15,9 +15,9 @@ def divide(valor1, valor2)
 end
 
 puts "Digite o primeiro valor: "
-valor1 = gets.to_i
+valor1 = gets.to_f
 puts "Digite o segundo valor: "
-valor2 = gets.to_i
+valor2 = gets.to_f
 
 puts "Resultado da soma:  #{soma(valor1, valor2)}"
 puts "Resultado da subtracao:  #{subtrai(valor1, valor2)}"
